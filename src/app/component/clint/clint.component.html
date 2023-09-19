@@ -1,1 +1,30 @@
-<p>clint works!</p>
+<div class="p-3 " fxFlex fxLayout="row" fxLayoutAlign="center center"  fxFlexAlign="center">
+<div class="icon" fxFlexAlign="center">
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon color="accent">add</mat-icon>
+  </button>
+  <p> Add New </p>
+</div>
+
+<mat-divider></mat-divider>
+<div fxLayout="row" fxLayoutAlign="space-around center" fxFlex class="container d-flex justify-content-around pt-3 align-items-center">
+<mat-form-field class="p-3">
+  <mat-label>Clint Name</mat-label>
+  <input matInput>
+</mat-form-field>
+<mat-form-field class="p-3">
+  <mat-label required="true">Phone Number</mat-label>
+  <input matInput>
+</mat-form-field>
+<mat-form-field>
+  <mat-label required >Type of activity</mat-label>
+  <mat-select>
+    <mat-option value="one">Shop</mat-option>
+    <mat-option value="two">Institution</mat-option>
+  </mat-select>
+</mat-form-field>
+</div>
+
+<div fxLayout="row" fxLayoutAlign="space-around center" >
+</div>
+</div>

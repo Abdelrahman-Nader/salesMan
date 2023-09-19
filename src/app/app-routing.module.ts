@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'dashbord',
-    loadChildren: () => import('./dashbord/dashbord.module').then(mod => mod.DashbordModule),
+    path: '',
+    loadChildren: () => import('./layout/layout.module').then(mod => mod.LayoutModule),
     // canActivate: [AuthGuard]
   },
 ];

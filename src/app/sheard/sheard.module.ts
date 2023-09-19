@@ -4,6 +4,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidnavComponent } from './sidnav/sidnav.component';
 import { MaterialModule } from '../material.module';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,7 +16,10 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     MaterialModule,
-    RouterModule
+    RouterModule,
+    FormsModule
+
+
   ],
 
   exports: [
